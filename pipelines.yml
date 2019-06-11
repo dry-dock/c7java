@@ -18,7 +18,7 @@ pipelines:
       - name: test
         type: Bash
         configuration:
-#           nodePool: bindu_test
+          nodePool: ankul_u16_nodes
           inputResources:
             - name: gitResource1211
         execution:
@@ -30,7 +30,7 @@ pipelines:
       - name: test1
         type: Bash
         configuration:
-#           nodePool: bindu_test
+          nodePool: ankul_u16_nodes
           inputSteps:
             - name: test
           runtime:
